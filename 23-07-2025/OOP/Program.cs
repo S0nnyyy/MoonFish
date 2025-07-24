@@ -44,6 +44,19 @@ namespace OOP
             shape.draw();
             shape2.draw();
 
+            //Seznam objektu
+            List<Car> cars = new List<Car>
+            {
+                new Car("Toyota", "Corolla", 2020),
+                new ElectricCar("Nissan", "Leaf", 2022, 40),
+                new DieselCar("Volkswagen", "Golf", 2018, 50)
+            };
+
+            foreach (var car in cars)
+            {
+                Console.WriteLine($"Make: {car.Make}, Model: {car.Model}, Year: {car.Year}");
+            }
+
         }
     }
 }
