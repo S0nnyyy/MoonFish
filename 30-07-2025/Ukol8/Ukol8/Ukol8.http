@@ -1,0 +1,6 @@
+@Ukol8_HostAddress = http://localhost:5189
+
+GET {{Ukol8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

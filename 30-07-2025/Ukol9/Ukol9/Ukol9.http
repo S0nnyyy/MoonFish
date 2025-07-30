@@ -1,0 +1,6 @@
+@Ukol9_HostAddress = http://localhost:5227
+
+GET {{Ukol9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
